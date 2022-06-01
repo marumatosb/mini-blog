@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #494949;
+  font-family: "Arial", "メイリオ";
+}
+
+a {
+  color: #3399CC;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.wrapper {}
+
+.contents {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.top-m {
+  padding: 20px;
+  background-color: #fff8dc;
+  border-radius: 10px;
+}
+
+#header {
+  background-color: #fff8dc;
+  padding: 20px;
+  margin-top: 20px;
+  border-bottom: 3px solid #fff0b3;
+  border-radius: 10px;
+}
+
+#header h1 {
+  margin: 0;
+}
+
+#header h1 a {
+  color: #494949;
+  text-decoration: none;
+}
+
+#header h1 a:hover {
+  color: #3399CC;
+}
+
+#nav {
+  margin: 0 30px;
+}
+
+#main {
+  margin: 0 30px;
+}
+
+.status {
+  padding: 10px;
+  border-bottom: 2px solid #CCCCCC;
+  margin-bottom: 10px;
+}
+
+ul.error_list {
+  border: 1px solid #FF0000;
+  background-color: #FFCCCC;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ul.error_list li {
+  color: #FF0000;
+}
+
+h2 {
+  padding: 0.25em 0.5em;
+  /*上下 左右の余白*/
+  color: #494949;
+  /*文字色*/
+  background: transparent;
+  /*背景透明に*/
+  border-left: solid 5px #fff0b3;
+  /*左線*/
+}
+
+textarea {
+  height: 150px;
+  border-radius: 10px;
+  border: 0.5px solid #cccccc;
+  background-color: #ffffff;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 10px;
+  /* 角丸       */
+  font-size: 13pt;
+  /* 文字サイズ */
+  text-align: center;
+  /* 文字位置   */
+  cursor: pointer;
+  /* カーソル   */
+  padding: 12px 30px;
+  /* 余白       */
+  background: #fff8dc;
+  /* 背景色     */
+  color: #494949;
+  /* 文字色     */
+  line-height: 1em;
+  /* 1行の高さ  */
+  opacity: 0.9;
+  /* 透明度     */
+  transition: .3s;
+  /* なめらか変化 */
+  box-shadow: 5px 5px 2px #666666;
+  /* 影の設定 */
+  border: 0px;
+  font-weight: bold;
+}
+
+.button:hover {
+  box-shadow: none;
+  /* カーソル時の影消去 */
+  opacity: 1;
+  /* カーソル時透明度 */
+}
+
+/************************************
+** レスポンシブデザイン用のメディアクエリ
+************************************/
+/*1023px以下*/
+@media screen and (max-width: 1023px) {
+  /*必要ならばここにコードを書く*/
+
+  .contents {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+/*834px以下*/
+@media screen and (max-width: 834px) {
+  /*必要ならばここにコードを書く*/
+
+  .contents {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+/*480px以下*/
+@media screen and (max-width: 480px) {
+  /*必要ならばここにコードを書く*/
+
+  .contents {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

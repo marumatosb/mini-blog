@@ -34,9 +34,9 @@ class MiniBlogApplication extends Application
   protected function configure()
   {
     $this->db_manager->connect('master',array(
-      'dsn' => 'mysql:dbname=DBネーム;host=ホスト名',
-      'user' => 'ユーザー名',
-      'password' => 'パスワード',
+      'dsn' => 'pgsql:dbname=d4s5lppcpkrgh1;host=ec2-23-23-182-238.compute-1.amazonaws.com;port=5432',
+      'user' => 'nszokmywshqthd',
+      'password' => '2a0be29776c1febeea47ff8ab01f0fa3f89e6389d884d32dc592ce6836a52639',
     ));
   }
 }
